@@ -26,9 +26,6 @@
 [RP:SINGLE_RES]
 1=
 
-[RP:HYDRO]
-1=
-
 [RP:COMMITMENT1]
 1=
 
@@ -64,9 +61,6 @@ FIELD=All fields
 FIELDONLY=0
 DIFFONLY=0
 
-[RP:V AND H]
-1=
-
 [RP:HYDROPT]
 1=
 
@@ -86,27 +80,42 @@ DIFFONLY=0
 [RP:CVAR1]
 1=
 
+[RP:CVAR2]
+1=
+
+[RP:V AND H]
+1=
+
+[RP:STOCHDETEQ]
+1=
+
+[RP:HYDRO]
+1=
+
 [RP:HYDR_THER]
 1=
 
 [MRUFILES]
-1=H:\工作同步\gams\plant_planning\Utility.gms
-2=H:\工作同步\gams\plant_planning\risk2.gms
-3=H:\工作同步\gams\plant_planning\risk1.gms
-4=H:\工作同步\gams\plant_planning\fit and scheduling.gms
-5=H:\工作同步\gams\plant_planning\fit and scheduling.lst
-6=H:\工作同步\gams\plant_planning\HydrOpt.gms
-7=H:\工作同步\gams\plant_planning\v and h.gms
-8=H:\工作同步\gams\plant_planning\risk2.lst
+1=f:\工作同步\gams\plant_planning\hydr_ther.gms
+2=H:\工作同步\gams\plant_planning\Utility.gms
+3=H:\工作同步\gams\plant_planning\risk2.gms
+4=H:\工作同步\gams\plant_planning\risk1.gms
+5=H:\工作同步\gams\plant_planning\fit and scheduling.gms
+6=H:\工作同步\gams\plant_planning\fit and scheduling.lst
+7=H:\工作同步\gams\plant_planning\HydrOpt.gms
+8=H:\工作同步\gams\plant_planning\v and h.gms
 
 [OPENWINDOW_1]
-FILE0=H:\工作同步\gams\plant_planning\1.INC
-FILE1=H:\工作同步\gams\plant_planning\cvar1.gms
-FILE2=H:\工作同步\gams\plant_planning\hydr_ther.gms
-FILE3=H:\工作同步\gams\plant_planning\hydr_ther.lst
-FILE4=H:\工作同步\gams\plant_planning\hydr_ther.gms
+FILE0=F:\code\Gams\plant_planning\1.INC
+FILE1=f:\code\Gams\plant_planning\Cvar2.gms
+FILE2=f:\code\Gams\plant_planning\hydr_ther.gms
+FILE3=F:\code\Gams\plant_planning\hydr_ther.lst
+FILE4=f:\code\Gams\plant_planning\hydro.gms
+FILE5=f:\code\Gams\plant_planning\stochdeteq.gms
+FILE6=f:\code\Gams\plant_planning\v and h.gms
+FILE7=F:\code\Gams\plant_planning\hydr_ther.lst
 MAXIM=1
-TOP=64
-LEFT=68
+TOP=8
+LEFT=1
 HEIGHT=428
 WIDTH=1208

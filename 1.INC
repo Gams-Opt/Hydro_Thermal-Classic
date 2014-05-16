@@ -16,8 +16,8 @@ table par_hydro(i,pa_hy)
 4     -0.003  -0.31 0.027 1.44 14   -90
 ;
 table par_ther(j,pa_th)
-      d1      d2    d3      d4
-1     0.002   19.2  5000    700
+      d1      d2    d3
+1     0.002   19.2  5000
 ;
 table st_hydro(i,st_hy)
       vmin vmax vini vend qmin qmax pmin pmax
